@@ -1,0 +1,139 @@
+.nav-container {
+  font-family: "montserrat-bold", sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
+  position: absolute;
+  width: 100%;
+}
+
+#navbar {
+  display: flex;
+  height: 65px;
+  width: 100%;
+  transition: top 0.3s;
+  z-index: 3;
+  padding: 20px 30px;
+}
+
+#navbar-logo {
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.outer-cicle {
+  background-color: var(--secondary);
+}
+
+.inner-cicle {
+  background-color: var(--primary);
+}
+
+.nav-menu {
+  display: flex;
+  margin-left: auto;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav-links {
+  color: var(--ternary);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.active {
+  color: var(--primary);
+}
+
+.nav-links:hover {
+  color: var(--primary);
+  transition: all 0.2s ease-in-out;
+}
+
+.menu-toggle .bar {
+  width: 25px;
+  height: 3px;
+  margin: 5px 12px 0 0;
+  transition: all 0.3s ease-in-out;
+  background: var(--ternary);
+}
+
+
+@media screen and (max-width: 768px) {
+  .nav-container {
+    position: relative;
+  }
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: flex-start;
+    background: var(--dark);
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    top: -200px;
+    opacity: 0;
+    transition: top 0.3s;
+    z-index: -1;
+    padding: 20px;
+  }
+
+  .nav-menu.active {
+    background: var(--dark);
+    overflow: hidden;
+    top: 80px;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+
+  .nav-links {
+    text-align: center;
+    line-height: 60px;
+    width: 100%;
+    margin-left: 10px;
+  }
+  .nav-links:hover {
+    color: var(--primary);
+    transition: all 0.4s ease-in-out;
+  }
+
+  #navbar {
+    width: 100%;
+  }
+
+  .menu-toggle .bar {
+    display: block;
+    cursor: pointer;
+  }
+
+  #mobile-menu {
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    transform: translate(5%, 20%);
+    color: red !important;
+  }
+
+  .menu-toggle:hover {
+    cursor: pointer;
+  }
+
+  #mobile-menu.is-active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  #mobile-menu.is-active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  #mobile-menu.is-active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(135deg);
+  }
+} 
