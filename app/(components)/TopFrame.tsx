@@ -11,7 +11,7 @@ const TopFrame = () => {
             <div className="flex justify-between">
                 <p className="text-3xl font-black text-[--secondary] xs:text-lg sm:text-xl lg:text-2xl xl:text-4xl">WeWork + Salesforce</p>
                 <button
-                    className="rounded bg-[--primary] text-white text-base font-bold xs:text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl pl-2 pr-2 xs:pl-3 xs:pr-3 sm:pl-4 sm:pr-4 lg:pl-6 lg:pr-6"
+                    className="rounded bg-[--primary] text-white text-base font-bold xs:text-xs xs:pl-3 xs:pr-3 sm:pl-4 sm:pr-4 sm:text-sm md:text-base lg:text-lg lg:pl-6 lg:pr-6 xl:text-xl pl-2 pr-2"
                 >
                     Publish/Share
                 </button>

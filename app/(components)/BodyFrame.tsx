@@ -8,31 +8,31 @@ const BodyFrame = () => {
     return (
         <>
             {/* middle body part */}
-            <div className="flex justify-between content-center mt-20 mb-6 sm:mt-14 xs:mb-4">
+            <div className="flex justify-between content-center mt-20 mb-6 xs:mt-10 xs:mb-4">
                 <p className="text-2xl font-extrabold text-[--title] sm:text-base whitespace-nowrap ">Project Scope Recap</p>
                 <div className="relative w-[200px] xs:w-[35%] ml-auto">
-                    <div className='absolute top-[-13px] w-[200px] flex content-center xs-top-[8px] sm:w-[120px]'>
+                    <div className='absolute top-[-13px] w-[100%] flex content-center xs-top-[8px]'>
                         <p className="text-base	text-[--light-gray] sm:text-[10px]">Mutual Actions Plan</p>
                         <p className="text-base	text-[--primary] font-black ml-auto sm:text-[10px]">3%</p>
                     </div>
                     <div className="mt-[8%] flex gap-1 h-[8px] rounded-lg sm:gap-[1px]">
-                        <div className="h-full w-4 bg-[--primary] rounded-l-lg sm:w-[7px] sm:h-[6px]"></div>
-                        <div className="h-full w-3 bg-[--placeholder-gray] sm:w-[6px] sm:h-[6px] " ></div>
-                        <div className="h-full w-3 bg-[--placeholder-gray] sm:w-[6px] sm:h-[6px] " ></div>
-                        <div className="h-full w-3 bg-[--placeholder-gray] sm:w-[6px] sm:h-[6px] " ></div>
-                        <div className="h-full w-3 bg-[--placeholder-gray] sm:w-[6px] sm:h-[6px] " ></div>
-                        <div className="h-full w-3 bg-[--placeholder-gray] sm:w-[6px] sm:h-[6px] " ></div>
-                        <div className="h-full w-3 bg-[--placeholder-gray] sm:w-[6px] sm:h-[6px] " ></div>
-                        <div className="h-full w-3 bg-[--placeholder-gray] sm:w-[6px] sm:h-[6px] " ></div>
-                        <div className="h-full w-3 bg-[--placeholder-gray] sm:w-[6px] sm:h-[6px] " ></div>
-                        <div className="h-full w-3 bg-[--placeholder-gray] sm:w-[6px] sm:h-[6px] " ></div>
-                        <div className="h-full w-3 bg-[--placeholder-gray] sm:w-[6px] sm:h-[6px] " ></div>
-                        <div className="h-full w-3 bg-[--placeholder-gray] sm:w-[6px] sm:h-[6px] " ></div>
-                        <div className="h-full w-3 bg-[--placeholder-gray] sm:w-[6px] sm:h-[6px] " ></div>
-                        <div className="h-full w-3 bg-[--placeholder-gray] sm:w-[6px] sm:h-[6px] " ></div>
-                        <div className="h-full w-3 bg-[--placeholder-gray] sm:w-[6px] sm:h-[6px] " ></div>
-                        <div className="h-full w-3 bg-[--placeholder-gray] sm:w-[6px] sm:h-[6px] " ></div>
-                        <div className="h-full w-4 bg-[--placeholder-gray] sm:w-[7px] sm:h-[6px] rounded-r-lg" ></div>
+                        <div className="h-full w-4 bg-[--primary] rounded-l-lg sm:w-[7px] sm:h-[6px] xs:w-[6%]"></div>
+                        <div className="h-full w-3 bg-[--placeholder-gray] sm:w-[6px] sm:h-[6px] xs:w-[5%]" ></div>
+                        <div className="h-full w-3 bg-[--placeholder-gray] sm:w-[6px] sm:h-[6px] xs:w-[5%]" ></div>
+                        <div className="h-full w-3 bg-[--placeholder-gray] sm:w-[6px] sm:h-[6px] xs:w-[5%]" ></div>
+                        <div className="h-full w-3 bg-[--placeholder-gray] sm:w-[6px] sm:h-[6px] xs:w-[5%]" ></div>
+                        <div className="h-full w-3 bg-[--placeholder-gray] sm:w-[6px] sm:h-[6px] xs:w-[5%]" ></div>
+                        <div className="h-full w-3 bg-[--placeholder-gray] sm:w-[6px] sm:h-[6px] xs:w-[5%]" ></div>
+                        <div className="h-full w-3 bg-[--placeholder-gray] sm:w-[6px] sm:h-[6px] xs:w-[5%]" ></div>
+                        <div className="h-full w-3 bg-[--placeholder-gray] sm:w-[6px] sm:h-[6px] xs:w-[5%]" ></div>
+                        <div className="h-full w-3 bg-[--placeholder-gray] sm:w-[6px] sm:h-[6px] xs:w-[5%]" ></div>
+                        <div className="h-full w-3 bg-[--placeholder-gray] sm:w-[6px] sm:h-[6px] xs:w-[5%]" ></div>
+                        <div className="h-full w-3 bg-[--placeholder-gray] sm:w-[6px] sm:h-[6px] xs:w-[5%]" ></div>
+                        <div className="h-full w-3 bg-[--placeholder-gray] sm:w-[6px] sm:h-[6px] xs:w-[5%]" ></div>
+                        <div className="h-full w-3 bg-[--placeholder-gray] sm:w-[6px] sm:h-[6px] xs:w-[5%]" ></div>
+                        <div className="h-full w-3 bg-[--placeholder-gray] sm:w-[6px] sm:h-[6px] xs:w-[5%]" ></div>
+                        <div className="h-full w-3 bg-[--placeholder-gray] sm:w-[6px] sm:h-[6px] xs:w-[5%]" ></div>
+                        <div className="h-full w-4 bg-[--placeholder-gray] rounded-r-lg sm:w-[7px] sm:h-[6px] xs:w-[6%]" ></div>
                     </div>
                 </div>
             </div>
