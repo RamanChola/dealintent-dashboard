@@ -10,15 +10,15 @@ yarn dev
 pnpm dev
 ```
 
-:arrow_right Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+➡️ Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-:arrow_right You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+➡️ You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-:arrow_right The project has been split into components, the directory `app/(components)` consists of all the components along with their css files, responsive design is in context of max-width and tailwind has also been used.
+➡️ The project has been split into components, the directory `app/(components)` consists of all the components along with their css files, responsive design is in context of max-width and tailwind has also been used.
 
-:arrow_right The Images are served by Next's Image and are store in the public folder.
+➡️ The Images are served by Next's Image and are store in the public folder.
 
-:arrow_right This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+➡️ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 
 ## Deploy on Vercel
