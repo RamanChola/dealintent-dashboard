@@ -23,6 +23,7 @@ const Navbar = () => {
                     <span className="bar"></span>
                 </div>
                 <ul className={isNavOpen ? "nav-menu active" : "nav-menu"}>
+                    {/* only visible in mobile device, i.e., sm size */}
                     <li className="justify-start content-center w-full h-[80px] hidden sm:flex">
                         <div className="flex rounded-full gap-3 ml-[40px]">
                             <Image src={ProfilePic} className="rounded-full w-[60px] h-[60px] self-center" alt="Profile picture" />

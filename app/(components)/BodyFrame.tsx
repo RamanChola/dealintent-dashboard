@@ -7,7 +7,7 @@ import "./bodyframe.css"
 const BodyFrame = () => {
     return (
         <>
-            {/* middle body part */}
+            {/* top body part || middle of the full page*/}
             <div className="flex justify-between content-center mt-20 mb-6 xs:mt-10 xs:mb-4 lg:mt-14">
                 <p className="text-2xl font-extrabold text-[--title] sm:text-xl whitespace-nowrap ">Project Scope Recap</p>
                 <div className="relative w-[200px] xs:w-[35%] lg:w-[30%]">
@@ -36,7 +36,7 @@ const BodyFrame = () => {
                     </div>
                 </div>
             </div>
-            {/* middle buttons */}
+            {/* middle of the page buttons */}
             <div className="flex justify-between">
                 <div className="flex w-[450px] h-[40px] gap-2 xs:h-[30px] xs:w-full sm:w-full">
                     <button className="w-[100%] xs:w-[20%] xs:h-[30px] xs:text-xs sm:h-[35px] sm:text-sm p-[6px] rounded-t-[5px] outline outline-1 outline-gray-400 whitespace-nowrap text-[--primary] font-black">Basic Info</button>
@@ -49,7 +49,7 @@ const BodyFrame = () => {
             <hr className="border-gray-200 ml-7 mr-7"></hr>
             {/* main body */}
             <div className='flex mt-5 mb-5'>
-                {/* Left button Panel */}
+                {/* Left buttons Panel */}
                 <div className='flex-[1] bg-[--pure] rounded-lg h-[320px] lg:hidden'>
                     <button className="w-[200px] font-bold text-lg text-[--light-gray] bg-[--pure] p-4 text-left rounded-t-lg">Overview</button>
                     <hr className="border-gray-200 ml-3 mr-3"></hr>
@@ -97,6 +97,7 @@ const BodyFrame = () => {
                         </div>
                     </div>
                     {/* main body */}
+                    {/* Outer div serves as a relative container for absolute children elements, i.e., WeWork Logo, Logo text and a opaque rectangle*/}
                     <div className='w-full mt-2 relative'>
                         <Image src={BodyImage} alt="bodyImage" className="rounded-lg w-full object-cover xs:h-[220px]" />
                         <div className="centered-axis-xy bg-[--pure] opacity-70 h-[160px] w-[450px] sm:w-[280px] sm:h-[107px]">
@@ -105,6 +106,7 @@ const BodyFrame = () => {
                         <p className="centered-logo-text whitespace-nowrap text-xl font-extrabold text-[--dark] mt-1 text-left sm:text-sm sm:top-[59%!important] lg:top-[62%!important] xl:top-[60%!important]" >
                             For all the ways you work, we're here
                         </p>
+                        {/* top toolbar */}
                         <div className='centered-axis-x top-5 flex h-[40px] rounded-lg border border-gray-300	bg-[--pure] opacity-70 pl-2 pr-2'>
                             <button className='flex gap-1 p-2 rounded-l-lg'>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6 text-[--ternary] hover:text-[--primary]">
@@ -140,6 +142,7 @@ const BodyFrame = () => {
                                 </svg>
                             </button>
                         </div>
+                        {/* Buttom buttons bar */}
                         <div className='flex gap-2 h-[40px] border-gray-300 mt-2'>
                             <div className="relative">
                                 <button className='p-2 rounded-l-lg'>

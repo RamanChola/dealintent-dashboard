@@ -7,7 +7,8 @@ import PlusSign from "../../public/plusSign.svg"
 import "./topframe.css"
 const TopFrame = () => {
     return (
-        <div>
+        <>
+            {/*  */}
             <div className="flex justify-between">
                 <p className="text-3xl font-black text-[--secondary] align-middle xs:text-lg sm:text-xl sm:pt-0 lg:text-2xl lg:pt-2 xl:text-4xl">WeWork + Salesforce</p>
                 <button
@@ -16,6 +17,7 @@ const TopFrame = () => {
                     Publish/Share
                 </button>
             </div>
+            {/* Outer div serves as a relative container for absolute children elements, i.e., Logo Images, Logo text and a opaque diagonally cut rectangular shape*/}
             <div className="relative">
                 <Image src={TitleImage} alt="titleImage" className='w-full rounded-lg mt-5 object-cover xs:h-[82px] sm:h-[95px] lg:h-[140px]' />
                 <div className="absolute top-0 right-0 bg-[--pure] opacity-70 h-full w-[45%] " style={{ clipPath: "polygon(25% 0, 100% 0, 100% 100%, 0 100%)" }}>
@@ -30,7 +32,7 @@ const TopFrame = () => {
                     <Image src={SalesforceLogo} alt="weWork" className='xs:w-[40px] sm:w-[50px] lg:w-[68.71px]'/>
                 </div>
             </div>
-        </div >
+        </>
     )
 }
 
