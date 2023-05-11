@@ -8,49 +8,49 @@ const BodyFrame = () => {
     return (
         <>
             {/* middle body part */}
-            <div className="flex justify-between content-center mt-20 mb-6 xs:mt-10 xs:mb-4">
-                <p className="text-2xl font-extrabold text-[--title] sm:text-base whitespace-nowrap ">Project Scope Recap</p>
-                <div className="relative w-[200px] xs:w-[35%] ml-auto">
-                    <div className='absolute top-[-13px] w-[100%] flex content-center xs-top-[8px]'>
-                        <p className="text-base	text-[--light-gray] sm:text-[10px]">Mutual Actions Plan</p>
-                        <p className="text-base	text-[--primary] font-black ml-auto sm:text-[10px]">3%</p>
+            <div className="flex justify-between content-center mt-20 mb-6 xs:mt-10 xs:mb-4 lg:mt-14">
+                <p className="text-2xl font-extrabold text-[--title] sm:text-xl whitespace-nowrap ">Project Scope Recap</p>
+                <div className="relative w-[200px] xs:w-[35%] lg:w-[30%]">
+                    <div className='absolute top-[-13px] w-[100%] flex content-center lg:top-[-6px]'>
+                        <p className="text-base	text-[--light-gray] xs:text-[10px] sm:text-xs lg:text-sm">Mutual Actions Plan</p>
+                        <p className="text-base	text-[--primary] font-black ml-auto xs:text-[10px] sm:text-xs lg:text-sm">3%</p>
                     </div>
-                    <div className="mt-[8%] flex gap-1 h-[8px] rounded-lg sm:gap-[1px]">
-                        <div className="h-full w-4 bg-[--primary] rounded-l-lg sm:w-[7px] sm:h-[6px] xs:w-[6%]"></div>
-                        <div className="h-full w-3 bg-[--placeholder-gray] sm:w-[6px] sm:h-[6px] xs:w-[5%]" ></div>
-                        <div className="h-full w-3 bg-[--placeholder-gray] sm:w-[6px] sm:h-[6px] xs:w-[5%]" ></div>
-                        <div className="h-full w-3 bg-[--placeholder-gray] sm:w-[6px] sm:h-[6px] xs:w-[5%]" ></div>
-                        <div className="h-full w-3 bg-[--placeholder-gray] sm:w-[6px] sm:h-[6px] xs:w-[5%]" ></div>
-                        <div className="h-full w-3 bg-[--placeholder-gray] sm:w-[6px] sm:h-[6px] xs:w-[5%]" ></div>
-                        <div className="h-full w-3 bg-[--placeholder-gray] sm:w-[6px] sm:h-[6px] xs:w-[5%]" ></div>
-                        <div className="h-full w-3 bg-[--placeholder-gray] sm:w-[6px] sm:h-[6px] xs:w-[5%]" ></div>
-                        <div className="h-full w-3 bg-[--placeholder-gray] sm:w-[6px] sm:h-[6px] xs:w-[5%]" ></div>
-                        <div className="h-full w-3 bg-[--placeholder-gray] sm:w-[6px] sm:h-[6px] xs:w-[5%]" ></div>
-                        <div className="h-full w-3 bg-[--placeholder-gray] sm:w-[6px] sm:h-[6px] xs:w-[5%]" ></div>
-                        <div className="h-full w-3 bg-[--placeholder-gray] sm:w-[6px] sm:h-[6px] xs:w-[5%]" ></div>
-                        <div className="h-full w-3 bg-[--placeholder-gray] sm:w-[6px] sm:h-[6px] xs:w-[5%]" ></div>
-                        <div className="h-full w-3 bg-[--placeholder-gray] sm:w-[6px] sm:h-[6px] xs:w-[5%]" ></div>
-                        <div className="h-full w-3 bg-[--placeholder-gray] sm:w-[6px] sm:h-[6px] xs:w-[5%]" ></div>
-                        <div className="h-full w-3 bg-[--placeholder-gray] sm:w-[6px] sm:h-[6px] xs:w-[5%]" ></div>
-                        <div className="h-full w-4 bg-[--placeholder-gray] rounded-r-lg sm:w-[7px] sm:h-[6px] xs:w-[6%]" ></div>
+                    <div className="mt-[8%] flex gap-1 h-[8px] rounded-lg sm:gap-[1px] lg:gap-[2px]">
+                        <div className="h-full w-4 bg-[--primary] rounded-l-lg sm:w-[7%] sm:h-[6px] xs:w-[6%]"></div>
+                        <div className="h-full w-3 bg-[--placeholder-gray] sm:w-[6%] sm:h-[6px] xs:w-[5%]" ></div>
+                        <div className="h-full w-3 bg-[--placeholder-gray] sm:w-[6%] sm:h-[6px] xs:w-[5%]" ></div>
+                        <div className="h-full w-3 bg-[--placeholder-gray] sm:w-[6%] sm:h-[6px] xs:w-[5%]" ></div>
+                        <div className="h-full w-3 bg-[--placeholder-gray] sm:w-[6%] sm:h-[6px] xs:w-[5%]" ></div>
+                        <div className="h-full w-3 bg-[--placeholder-gray] sm:w-[6%] sm:h-[6px] xs:w-[5%]" ></div>
+                        <div className="h-full w-3 bg-[--placeholder-gray] sm:w-[6%] sm:h-[6px] xs:w-[5%]" ></div>
+                        <div className="h-full w-3 bg-[--placeholder-gray] sm:w-[6%] sm:h-[6px] xs:w-[5%]" ></div>
+                        <div className="h-full w-3 bg-[--placeholder-gray] sm:w-[6%] sm:h-[6px] xs:w-[5%]" ></div>
+                        <div className="h-full w-3 bg-[--placeholder-gray] sm:w-[6%] sm:h-[6px] xs:w-[5%]" ></div>
+                        <div className="h-full w-3 bg-[--placeholder-gray] sm:w-[6%] sm:h-[6px] xs:w-[5%]" ></div>
+                        <div className="h-full w-3 bg-[--placeholder-gray] sm:w-[6%] sm:h-[6px] xs:w-[5%]" ></div>
+                        <div className="h-full w-3 bg-[--placeholder-gray] sm:w-[6%] sm:h-[6px] xs:w-[5%]" ></div>
+                        <div className="h-full w-3 bg-[--placeholder-gray] sm:w-[6%] sm:h-[6px] xs:w-[5%]" ></div>
+                        <div className="h-full w-3 bg-[--placeholder-gray] sm:w-[6%] sm:h-[6px] xs:w-[5%]" ></div>
+                        <div className="h-full w-3 bg-[--placeholder-gray] sm:w-[6%] sm:h-[6px] xs:w-[5%]" ></div>
+                        <div className="h-full w-4 bg-[--placeholder-gray] rounded-r-lg sm:w-[7%] sm:h-[6px] xs:w-[6%]" ></div>
                     </div>
                 </div>
             </div>
             {/* middle buttons */}
-            <div className="flex justify-between mt-">
-                <div className="flex w-[450px] h-[40px] gap-2 xs:h-[30px]">
-                    <button className="w-[100%] xs:w-[70px] xs:h-[30px] xs:text-xs p-[6px] rounded-t-[5px] outline outline-1 outline-gray-400 whitespace-nowrap text-[--primary] font-black">Basic Info</button>
-                    <button className="w-[60%] xs:w-[45px] xs:h-[30px] xs:text-xs  p-[6px] rounded-t-[5px] outline outline-1 outline-gray-400 whitespace-nowrap text-[--ternary] font-bold hover:text-[--primary]">Files</button>
-                    <button className="w-[180%] xs:w-[138px] xs:h-[30px] xs:text-xs p-[6px] rounded-t-[5px] outline outline-1 outline-gray-400 whitespace-nowrap text-[--ternary] font-bold hover:text-[--primary]">Mutual Action Plan</button>
-                    <button className="w-[80%] xs:w-[65px] xs:h-[30px] xs:text-xs p-[6px] rounded-t-[5px] outline outline-1 outline-gray-400 whitespace-nowrap text-[--ternary] font-bold hover:text-[--primary]">Contact</button>
+            <div className="flex justify-between">
+                <div className="flex w-[450px] h-[40px] gap-2 xs:h-[30px] xs:w-full sm:w-full">
+                    <button className="w-[100%] xs:w-[20%] xs:h-[30px] xs:text-xs sm:h-[35px] sm:text-sm p-[6px] rounded-t-[5px] outline outline-1 outline-gray-400 whitespace-nowrap text-[--primary] font-black">Basic Info</button>
+                    <button className="w-[60%] xs:w-[15%] xs:h-[30px] xs:text-xs sm:h-[35px] sm:text-sm p-[6px] rounded-t-[5px] outline outline-1 outline-gray-400 whitespace-nowrap text-[--ternary] font-bold hover:text-[--primary]">Files</button>
+                    <button className="w-[180%] xs:w-[45%] xs:h-[30px] xs:text-xs sm:h-[35px] sm:text-smp-[6px] rounded-t-[5px] outline outline-1 outline-gray-400 whitespace-nowrap text-[--ternary] font-bold hover:text-[--primary]">Mutual Action Plan</button>
+                    <button className="w-[80%] xs:w-[20%] xs:h-[30px] xs:text-xs sm:h-[35px] sm:text-smp-[6px] rounded-t-[5px] outline outline-1 outline-gray-400 whitespace-nowrap text-[--ternary] font-bold hover:text-[--primary]">Contact</button>
                 </div>
-                <button className="w-[150px] p-[6px] rounded-t-[5px] outline outline-1 outline-gray-400 text-[--ternary] font-bold hover:text-[--primary] xs:hidden">Internal Actions</button>
+                <button className="w-[150px] p-[6px] rounded-t-[5px] outline outline-1 outline-gray-400 text-[--ternary] font-bold hover:text-[--primary] sm:hidden">Internal Actions</button>
             </div>
             <hr className="border-gray-200 ml-7 mr-7"></hr>
             {/* main body */}
             <div className='flex mt-5 mb-5'>
                 {/* Left button Panel */}
-                <div className='flex-[1] bg-[--pure] rounded-lg h-[320px] md:hidden'>
+                <div className='flex-[1] bg-[--pure] rounded-lg h-[320px] lg:hidden'>
                     <button className="w-[200px] font-bold text-lg text-[--light-gray] bg-[--pure] p-4 text-left rounded-t-lg">Overview</button>
                     <hr className="border-gray-200 ml-3 mr-3"></hr>
                     <button className="w-[200px] text-sm text-[--light-gray] bg-[--pure] p-4 text-left">Welcome</button>
@@ -64,10 +64,10 @@ const BodyFrame = () => {
                     <button className="w-[200px] text-sm text-[--light-gray] bg-[--pure] p-4 text-left rounded-b-lg">Our Deck</button>
                 </div>
                 {/* right body panel */}
-                <div className='flex-[10] ml-5 xs:ml-0'>
+                <div className='flex-[10] ml-5 lg:ml-0'>
                     {/* top part */}
                     <div className='flex justify-between'>
-                        <p className='font-extrabold text-2xl text-[--title] xs:text-base'>
+                        <p className='font-extrabold text-2xl text-[--title] xs:text-base sm:text-xl'>
                             Company profile
                         </p>
                         <button className='hidden xs:block'>
@@ -102,7 +102,7 @@ const BodyFrame = () => {
                         <div className="centered-axis-xy bg-[--pure] opacity-70 h-[160px] w-[450px] sm:w-[280px] sm:h-[107px]">
                         </div>
                         <Image src={WeworkLogoFull} alt="weworkLogo" className="centered-logo sm:w-[192px]" />
-                        <p className="centered-logo-text whitespace-nowrap text-xl font-extrabold text-[--dark] mt-1 text-left sm:text-sm xl:top-[60%!important]" >
+                        <p className="centered-logo-text whitespace-nowrap text-xl font-extrabold text-[--dark] mt-1 text-left sm:text-sm sm:top-[59%!important] lg:top-[62%!important] xl:top-[60%!important]" >
                             For all the ways you work, we're here
                         </p>
                         <div className='centered-axis-x top-5 flex h-[40px] rounded-lg border border-gray-300	bg-[--pure] opacity-70 pl-2 pr-2'>

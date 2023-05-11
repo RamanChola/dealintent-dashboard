@@ -6,9 +6,8 @@ import BodyFrame from './(components)/BodyFrame'
 const page = () => {
   return (
     <div>
-            {/* <div className="ml-5 w-[350px] bg-red-500 h-[600px]"></div>/ */}
       <Navbar/>
-      <div className="mt-[90px] ml-[30px] mr-[30px] xs:mt-[10px] xs:ml-[10px] xs:mr-[10px]">
+      <div className="mt-[90px] ml-[30px] mr-[30px] sm:mt-[10px] sm:ml-[10px] sm:mr-[10px] lg:mt-[80px]">
         <TopFrame />
         <BodyFrame />
       </div>

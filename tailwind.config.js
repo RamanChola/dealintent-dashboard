@@ -19,20 +19,14 @@ module.exports = {
     screens: {
       "2xl": { max: "1535px" },
       // => @media (max-width: 1535px) { ... }
-
       xl: { max: "1270px" },
-      // => @media (max-width: 1279px) { ... }
-
-      lg: { max: "1023px" },
-      // => @media (max-width: 1023px) { ... }
-
-      md: { max: "720px" },
-      // => @media (max-width: 767px) { ... }
-
-      sm: { max: "680px" },
-      // => @media (max-width: 639px) { ... }
+      // => @media (max-width: 1270px) { ... }
+      lg: { max: "940px" },
+      // => @media (max-width: 940px) { ... }
+      sm: { max: "690px" },
+      // => @media (max-width: 690px) { ... }
       xs: { max: "498px" },
-      // => @media (max-width: 639px) { ... }
+      // => @media (max-width: 498px) { ... }
     },
   },
   plugins: [],
