@@ -1,0 +1,6 @@
+.centered-title-text {
+  position: absolute;
+  right: 16%;
+  top: 30%;
+  transform: translate(-30%, -16%);
+}

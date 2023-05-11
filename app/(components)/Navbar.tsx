@@ -6,7 +6,7 @@ import Vector from "../../public/Vector.jpg"
 const Navbar = () => {
     const notificationCount = 25;
     return (
-        <nav className="nav-container top-0">
+        <nav className="nav-container top-0 ml-30">
             <div id="navbar">
                 <div id="navbar-logo">
                     <div className="outer-cicle rounded-full bg-gray-300 w-8 h-8 flex items-center justify-center">
@@ -64,7 +64,7 @@ const Navbar = () => {
                     </li>
                 </ul>
             </div>
-            <hr className="border-gray-200 ml-7 mr-7"></hr>
+            <hr className="border-gray-200 ml-7 mr-7 xs:ml-2 xs:mr-2"></hr>
         </nav>
     )
 }

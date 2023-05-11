@@ -1,0 +1,13 @@
+.centered-logo {
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -45%);
+}
+
+.centered-logo-text {
+  position: absolute;
+  left: 50%;
+  top: 56%;
+  transform: translate(-50%, -56%);
+}
